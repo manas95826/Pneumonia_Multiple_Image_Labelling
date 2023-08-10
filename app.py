@@ -31,7 +31,7 @@ def classify_image(img):
 
 def main():
     st.title("Image Classification")
-    st.header("Pneumonia X-Ray Classification")
+    st.header("Pneumonia X-Ray Classifications")
     st.text("Upload a Pneumonia X-Ray for classification")
 
     uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg"])
